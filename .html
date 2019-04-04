@@ -1,9 +1,61 @@
-<!DOCTYPE HTML!>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Run Saquon Game</title>
-      <h1 align = "center">Run Saquon Game!</h1>
-        <p>The objective of "Run Saquon," is to avoid obsticles and to score touchdowns. To play use the arrow keys to move, and as you score more touchdowns the difficulty will change! Now get out there and score some TDS!</p>
-   </head>
-   <body>
-   
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/prototype.js"></script>
+    <link rel='stylesheet' href="css/main.css">
+    <title>Football Runner</title>
+</head>
+<body>  
+    <center>
+        <button onclick="saveData('gameSave')">Save Game</button>
+        <button onclick="startGame()">Start Game!</button>
+        <button onclick="loadData('gameSave')">Load Game</button>
+        <!-- <hr/>
+        <p id='stopAlert'></p>  -->
+    </center>
+    <br/>
+    <br/>
+    <div class="divTable" style="width: 100%;" >
+        <div class="tblBody">
+            <div class="tblRow">
+                <div id="0,2"class="tblCell"></div>
+                <div id="1,2"class="tblCell"></div>
+                <div id="2,2"class="tblCell"></div>
+                <div id="3,2"class="tblCell"></div>
+                <div id="4,2"class="tblCell"></div>
+                <div id="5,2"class="tblCell"></div>
+                <div id="6,2"class="tblCell"></div>
+                <div id="7,2"class="tblCell"></div>
+                <div id="8,2"class="tblCell"></div>
+                <div id="9,2"class="tblCell"></div>
+            </div>
+            <div class="tblRow">
+                <div id="0,1"class="tblCell"></div>
+                <div id="1,1"class="tblCell"></div>
+                <div id="2,1"class="tblCell"></div>
+                <div id="3,1"class="tblCell"></div>
+                <div id="4,1"class="tblCell"></div>
+                <div id="5,1"class="tblCell"></div>
+                <div id="6,1"class="tblCell"></div>
+                <div id="7,1"class="tblCell"></div>
+                <div id="8,1"class="tblCell"></div>
+                <div id="9,1"class="tblCell"></div>
+            </div>
+            <div class="tblRow">
+                <div id="0,0"class="tblCell"></div>
+                <div id="1,0"class="tblCell"></div>
+                <div id="2,0"class="tblCell"></div>
+                <div id="3,0"class="tblCell"></div>
+                <div id="4,0"class="tblCell"></div>
+                <div id="5,0"class="tblCell"></div>
+                <div id="6,0"class="tblCell"></div>
+                <div id="7,0"class="tblCell"></div>
+                <div id="8,0"class="tblCell"></div>
+                <div id="9,0"class="tblCell"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
