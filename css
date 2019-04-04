@@ -1,0 +1,39 @@
+.divTable{
+	display: table;
+	width: 100%;
+}
+.tblRow {
+	display: table-row;
+	height: 33%;
+}
+.tblCell, .divTableHead {
+	/* border: 1px solid #999999; */
+	display: table-cell;
+	padding: 3px 10px;
+	max-height: 10%;
+	height:250px;
+	width: 10%;
+	overflow: scroll;
+}
+.tblBody {
+	display: table-row-group;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+}
+button {
+	background-color: rgb(168, 19, 19); /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	/* font-weight: 100; */
+  }
